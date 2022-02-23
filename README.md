@@ -1,0 +1,2 @@
+# MINI-PROJECT
+For MINI PROJECT OF 6th semester 
