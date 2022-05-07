@@ -36,7 +36,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background: rgb(246,245,243);
+background: linear-gradient(90deg, rgba(246,245,243,0.9104049938351082) 2%, rgba(237,157,227,0.9104049938351082) 32%, rgba(147,228,226,1) 80%);;
 }
 
 [tabindex="-1"]:focus {

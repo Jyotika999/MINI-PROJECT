@@ -1,10 +1,17 @@
 <html>
 <head>
 	<link rel="stylesheet" href="css/bootstrap.css">
+	
 </head>
 <body>
+
+<style>
+body {background: rgb(246,245,243);background:  linear-gradient(90deg, rgba(246,245,243,0.9104049938351082) 2%, rgba(237,157,227,0.9104049938351082) 32%, rgba(147,228,226,1) 80%);
+;}
+  
+</style>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-		<a class="navbar-brand" href="index.php">Edu-sum</a>
+		<a class="navbar-brand" href="index.php">Edu-Sum</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -55,6 +62,7 @@
 						echo "<center>".$slide_id." of ".$slide_count."</center>";
 						?>
 					</div>
+					<br><br><br><br>
 					<div class="col-md-3">
 						<?php
 						echo "Important Points:<br><br>";
@@ -62,6 +70,7 @@
 						echo "<br>";
 						?>
 					</div>
+					<br><br><br>
 					<div class="col-md-2">
 						<?php
 						echo "<center><a href=video.php?video_id=".$video_id."&slide_id=".$slide_id."><img src=".$img." width='100%'><br><br>";
@@ -72,7 +81,7 @@
 						echo "<br>";
 						?>
 					</div>
-				</div>
+				<!-- </div> -->
 				<?php
 			}
 			else
@@ -105,7 +114,7 @@
 						echo "<br>";
 						?>
 					</div>
-				</div>
+				<!-- </div> -->
 				<?php
 			}
 		?>

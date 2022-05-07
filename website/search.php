@@ -3,6 +3,12 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
+
+<style>
+body {background: rgb(246,245,243);background:  linear-gradient(90deg, rgba(246,245,243,0.9104049938351082) 2%, rgba(237,157,227,0.9104049938351082) 32%, rgba(147,228,226,1) 80%);
+;}
+  
+</style>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
 		<a class="navbar-brand" href="index.php">Edu-Sum</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
